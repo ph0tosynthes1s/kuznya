@@ -5,7 +5,7 @@
 Вместо копирования старых репозиториев и ручной настройки окружения достаточно одной команды.
 
 ```bash
-kuznya new my-api --template laravel
+kuznya build my-api --template laravel
 ```
 
 ## Поддерживаемые шаблоны:
@@ -16,12 +16,13 @@ kuznya new my-api --template laravel
 
 ## Пример:
 ```bash
-kuznya new my-api --template gin
+kuznya build my-api --template gin
 ```
 
 Создаст готовый каркас проекта со структурой директорий, конфигурацией и базовыми файлами.
 
 ## Roadmap проекта:
+- [x] инит проекта;
 - [ ] пользовательские шаблоны;
 - [ ] генерация отдельных компонентов (`controller`, `service`, `repository`);
 - [ ] интеграция с Docker;
